@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var Lines = require('./lines');
-var Objects = require('./objects');
+var Objects = require('./objects2');
 var Json = require('./json');
 
 process.stdin
