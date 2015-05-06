@@ -1,0 +1,10 @@
+{
+  "name": "node-testing-before",
+  "version": "1.0.0",
+  "description": "Node.js Testing Lab (before)",
+  "private": true,
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
