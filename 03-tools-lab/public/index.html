@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TODOs</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <form id="todo-form">
+                    <div class="input-group">
+                        <div class="form-group">
+                            <input id="todo-input" type="text" class="form-control input-lg" autofocus>
+                        </div>
+                        <div class="input-group-btn">
+                            <button id="todo-add" type="submit" class="btn btn-primary btn-lg">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <table class="table table-hover">
+                    <tbody id="todo-list"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script id="todo-template" type="text/html">
+        <tr class="todo-item todo-active">
+            <td>
+                <button class="todo-toggle btn btn-default btn-xs">
+                    <span class="todo-active glyphicon glyphicon-unchecked"></span>
+                    <span class="todo-completed glyphicon glyphicon-check"></span>
+                </button>
+            </td>
+            <td>
+                <div class="todo-title">
+                    <div class="todo-text"></div>
+                    <input type="text" class="todo-val form-control"></span>
+                </div>
+            </td>
+            <td class="text-right">
+                <button class="todo-edit btn btn-primary btn-xs">
+                    <span class="glyphicon glyphicon-edit"></span>
+                </button>
+            </td>
+            <td class="text-right">
+                <button class="todo-delete btn btn-danger btn-xs">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </button>
+            </td>
+        </tr>
+    </script>
+
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="db.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>

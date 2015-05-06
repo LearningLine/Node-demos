@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "install dependencies",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "create package.json",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "test the application",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "install grunt-cli, grunt, and grunt plugins",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "create Gruntfile.js",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "define tasks",
+      "completed": false
+    }
+  ]
+}
