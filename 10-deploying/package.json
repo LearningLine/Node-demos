@@ -1,0 +1,11 @@
+{
+  "name": "10-deploying",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Jason Diamond <jason@diamond.name>",
+  "license": "ISC"
+}
